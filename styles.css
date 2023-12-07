@@ -1,0 +1,117 @@
+body {
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+h3 {
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Добавлено для отступов внутри навигационного блока */
+}
+
+#logo {
+    max-width: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 45px; /* Добавлено для отступов между контейнером и товарами */
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px; /* Ширина товара */
+    border-radius: 10px; /* Закругленные края */
+    overflow: hidden; /* Скрытие выходящих за границы элементов */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+}
+
+.ph {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; /* Закругленные края для изображения */
+}
+
+.name {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.cena {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #33a756;
+}
+
+.button {
+    background-color: #b8775a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #a75833;
+}
+.textproduct {
+    flex-grow: 1; 
+    color: #fff;/* Занимает оставшееся пространство, чтобы занимать всю доступную ширину */
+}
+
+.cenaproduct {
+    font-weight: bold;
+    color: #33a756;
+    margin-top: 36px;
+}
+.container2 {
+    display: flex;
+    margin: 20px;
+}
+
+.ph2 {
+    max-width: 1500px;
+    max-height: 500px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.product-details {
+    flex-grow: 1;
+}
